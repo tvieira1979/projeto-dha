@@ -1,0 +1,101 @@
+html * {
+  box-sizing: border-box;
+
+}
+
+img {
+  max-width: 100%;
+}
+p{
+    font-size: 20px;
+  
+    max-width:100%;
+}
+.imagem {
+  text-align: center;
+  align-items: center;
+  max-width:300px;
+   }
+
+.logo{
+     text-align: center;
+     align-items: center;
+     max-width:100px;
+      }
+
+header{
+  grid-template-rows:100px;
+  grid-template-columns: 30% 60%;
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: white url("imagens/fundo-grid.png");
+
+}
+
+ul.a {
+
+  list-style: circle;
+  font-size: 20px;
+}
+
+h1 {
+  color: #00979D;
+
+}
+
+
+h2 {
+  color: #00979D;
+
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  background: white url("imagens/fundo-site.jpg")repeat;
+
+}
+
+.container {
+  border: 2px solid #00979D;
+  padding: 16px;
+  align-items: center;
+  background: white url("imagens/fundo-site.jpg");
+}
+
+
+.cartao {
+  border: 2px solid #00979D;
+  padding: 16px;
+  align-items: center;
+
+}
+
+.button {
+    background-color: #00979D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+}
+
+
+footer {
+  height: 100px;
+  margin-top: 28px;
+  text-align: center;
+  background: white url("imagens/fundo-site.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: #00979D;
+  font-size: 20px;
+}
